@@ -12,12 +12,14 @@ public class Emp {
     private String ename;
     private Dept dept;
 
-    public Emp(){}
-    public Emp(String ename){
+    public Emp() {
+    }
+
+    public Emp(String ename) {
         this.ename = ename;
     }
 
-    public Emp(String ename, Dept dept){
+    public Emp(String ename, Dept dept) {
         this.ename = ename;
         this.dept = dept;
     }
@@ -41,7 +43,7 @@ public class Emp {
     }
 
     @ManyToOne
-    @JoinColumn(name="deptno")
+    @JoinColumn(name = "deptno")
     public Dept getDept() {
         return dept;
     }
