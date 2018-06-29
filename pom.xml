@@ -10,8 +10,8 @@
 
 	<modules>
 		<module>manytoone</module>
-
-	<module>oonetoonenetoone</module>
-  </modules>
+		<module>onetoone</module>
+        <module>manytomany</module>
+    </modules>
 	
 </project>
