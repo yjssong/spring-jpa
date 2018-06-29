@@ -12,6 +12,7 @@
 		<module>manytoone</module>
 		<module>onetoone</module>
         <module>manytomany</module>
-    </modules>
+		<module>board</module>
+	</modules>
 	
 </project>
