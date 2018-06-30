@@ -13,6 +13,8 @@
 		<module>onetoone</module>
         <module>manytomany</module>
 		<module>board</module>
+        <module>accessing-data-jpa</module>
+		<module>accessing-data-rest</module>
 	</modules>
 	
 </project>

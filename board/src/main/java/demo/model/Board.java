@@ -1,5 +1,9 @@
 package demo.model;
 
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
 import javax.persistence.*;
 import java.util.Date;
 
